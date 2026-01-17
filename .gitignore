@@ -13,3 +13,10 @@ data/index/
 data/*.npy
 #PDFs (eventuell wegen Urheberrecht)
 #data/*.pdf
+#Excecutables
+*.exe
+*.lnk
+#Gradio
+.gradio/
+#Virtualenv
+venv/
