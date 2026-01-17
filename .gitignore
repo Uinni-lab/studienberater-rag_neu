@@ -1,0 +1,15 @@
+#Virtual Enviroment
+venv/
+.env/
+#Pycharm
+#IDE-spezifische Einstellungen
+.idea
+#Python cache
+__pycache__/
+*.pyc
+#FAISS/Embeddings
+#Dateien die hier entstehen sind groß und reproduzierbar
+data/index/
+data/*.npy
+#PDFs (eventuell wegen Urheberrecht)
+#data/*.pdf
