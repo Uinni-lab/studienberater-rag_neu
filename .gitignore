@@ -12,9 +12,10 @@ __pycache__/
 *.sqlite3
 #FAISS/Embeddings
 #Dateien die hier entstehen sind groß und reproduzierbar
-data/index/
-data/*.npy
-data/*.faiss
+**/data/index/
+**/data/*.index
+**/data/*.npy
+**/data/*.faiss
 #PDFs
 #data/*.pdf
 #Excecutables
