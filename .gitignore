@@ -7,16 +7,23 @@ venv/
 #Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.sqlite3
 #FAISS/Embeddings
 #Dateien die hier entstehen sind groß und reproduzierbar
 data/index/
 data/*.npy
-#PDFs (eventuell wegen Urheberrecht)
+data/*.faiss
+#PDFs
 #data/*.pdf
 #Excecutables
-*.exe
-*.lnk
+data/*.exe
+data/*.lnk
 #Gradio
 .gradio/
 #Virtualenv
 venv/
+#Excecutalbles (global)
+*.exe
+*.lnk
