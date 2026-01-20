@@ -1,5 +1,6 @@
 #Virtual Enviroment
 venv/
+.venv/
 .env/
 #Pycharm
 #IDE-spezifische Einstellungen
@@ -7,29 +8,13 @@ venv/
 #Python cache
 __pycache__/
 *.pyc
-#*.pyo
-#*.pyd
-#*.sqlite3
 #Gradio
 .gradio/
 #RAG
 src/data/
 data/
-#FAISS/Embeddings
-#Dateien die hier entstehen sind groß und reproduzierbar
-#**/data/index/
-#**/data/*.index
-#**/data/*.npy
-#**/data/*.faiss
 #PDFs
 *.pdf
-#Excecutables
-#data/*.exe
-#data/*.lnk
-#Gradio
-.gradio/
-#Virtualenv
-venv/
-#Excecutalbles (global)
+#Excecutalbles
 *.exe
 *.lnk
