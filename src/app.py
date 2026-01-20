@@ -13,8 +13,3 @@ ui = gr.Interface(
 )
 
 ui.launch()
-#Was noch gemacht werden muss: Chunks kleiner/größer
-#grafikkarte --> schnelligkeit
-#venv ausblenden gitignore
-#github auch probleme schildern
-#evtl synonyme erkennen k niedriger machen: Erledigt
