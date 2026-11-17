@@ -4,8 +4,6 @@
 Dieses Projekt ist meine erste Anwendung mit RAG. Damit kann man PDF-Dateien einlesen und dann Fragen dazu stellen. Das System such die relevanten Textstellen heraus und beantwortet Fragen mit einem lokalen LLM.
 
 ## Ordnerstruktur
-/data
-- Hier liegen meine PDFs
 /src
 - read_pdf.py: Liest PDFs ein und erstellt Text-Chunks
 - build_index.py: Erstellt Embeddings und FAISS-Index
